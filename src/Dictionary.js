@@ -1,13 +1,21 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
 
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
   /*SEARCH WHEN USER SUBMITS-inside search bar*/
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword}...`);
+
+    // documentation: https://dictionaryapi.dev/
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   /*function that allows the value to change in the search bar 
