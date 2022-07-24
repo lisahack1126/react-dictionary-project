@@ -9,10 +9,13 @@
 }
 
 blockquote h2 {
-  font-family: "La Belle Aurore", cursive;
-  font-size: 40px;
+  font-family: "Harry Potter", sans-serif;
+  font-size: 50px;
 }
 
 figcaption {
-  font-family: "Poppins", sans-serif;
+  text-align: right;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 20px;
+  margin: 10px 40px 0 0;
 }

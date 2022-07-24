@@ -10,7 +10,7 @@ export default function App() {
             <h2 className="mb-0">
               "Words are our most inexhaustible source of magic."
             </h2>
-            <figcaption>J.K. Rowling</figcaption>
+            <figcaption>-J.K. Rowling</figcaption>
           </blockquote>
         </header>
         <main>

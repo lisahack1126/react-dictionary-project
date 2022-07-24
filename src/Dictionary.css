@@ -5,8 +5,8 @@
 .Dictionary section {
   background: #cfd1c3;
   border-radius: 12px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  margin: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 25px;
   padding: 30px;
 }
 
