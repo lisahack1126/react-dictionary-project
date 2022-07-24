@@ -6,10 +6,15 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary App</h1>
+          <blockquote>
+            <h2 className="mb-0">
+              "Words are our most inexhaustible source of magic."
+            </h2>
+            <figcaption>J.K. Rowling</figcaption>
+          </blockquote>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="welcome" />
         </main>
         <footer className="App-footer">
           <small>

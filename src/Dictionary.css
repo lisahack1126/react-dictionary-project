@@ -1,0 +1,20 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.Dictionary section {
+  background: #cfd1c3;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  padding: 30px;
+}
+
+.Dictionary input {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #333;
+  margin: 5px 0 0 0;
+  padding: 6px 10px;
+  width: 100%;
+}
