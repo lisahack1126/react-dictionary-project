@@ -1,3 +1,9 @@
+.App {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+
 .App-header {
   text-align: center;
   margin: 80px 0 40px 0;
@@ -10,7 +16,7 @@
 
 blockquote h2 {
   font-family: "Harry Potter", sans-serif;
-  font-size: 50px;
+  font-size: 62px;
 }
 
 figcaption {
