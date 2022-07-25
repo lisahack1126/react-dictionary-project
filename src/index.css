@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./books.jpg) no-repeat center center fixed;
+  background: url(./books.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 code {
