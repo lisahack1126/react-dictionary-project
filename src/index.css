@@ -7,15 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url(./books.jpg) no-repeat center center fixed;
   background-size: cover;
+  height: auto;
+  width: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-@media (max-width: 800px) {
-  body {
-    width: 100%;
-  }
 }
