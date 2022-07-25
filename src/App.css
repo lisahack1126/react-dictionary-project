@@ -23,6 +23,7 @@ figcaption {
   text-align: center;
   font-family: "Mrs Saint Delafield", cursive;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 800px) {
